@@ -1,0 +1,60 @@
+body{ 
+    text-align: center;
+    color: #fff;
+    background: hsl(227, 10%, 10%);
+    font: 300 1em 'Fira Sans', sans-serif;
+}
+
+h1{
+    margin-bottom: 35px;
+}
+
+.tabuleiro{
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    min-width: fit-content;
+    max-width: fit-content;
+    box-shadow: 2px 3px 15px 0px rgb(207, 157, 157);
+    justify-content: center;
+}
+
+.quadrado{
+    text-align: center;
+    width: 5vw;
+    background-color: #eee;
+    display: inline-block;
+    padding: 30px;
+    font-size: 30px;
+    margin: 3px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.jogador, .vencedor{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* BOTÃO */
+
+button:hover{
+    border-color: #ffa260;
+    box-shadow: 0 0.5em 0.5em -0.4em yellow;
+    transform: translateY(-0.25em);
+    color: white;
+}
+
+button {
+    margin-top: 30px;
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    padding: 1em 2em;
+    color: #ffa260;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+
